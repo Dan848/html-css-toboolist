@@ -91,16 +91,22 @@ header {
     margin-bottom: 10px;
 }
 
+ul {
+    margin-bottom: 40px;
+}
+
 li {
     font-size: 18px;
     font-weight: 600;
+    padding: 10px;
 }
 
  .check {
-    min-width: 27px;
-    min-height: 27px;
-    display: inline-block;
     color: #64c0a9;
+    font-size: small;
+    min-width: 21px;
+    min-height: 21px;
+    display: inline-block;
     border-style: solid;
     border-radius: 50%;
     border-width: 2px;
@@ -108,10 +114,11 @@ li {
  }
 
  .cross {
-    min-width: 27px;
-    min-height: 27px;
-    display: inline-block;
     color: red;
+    font-size: small;
+    min-width: 21px;
+    min-height: 21px;
+    display: inline-block;
     border-style: solid;
     border-radius: 50%;
     border-width: 2px;
@@ -127,6 +134,26 @@ li {
     font-size: 11px;
  }
 
- .editorial {
+.bg-blue {
     background-color: #47adf1;
+ }
+
+ .bg-purple {
+    background-color: #9c72e4;
+ }
+
+ .bg-green {
+    background-color: #64c0a9;
+ }
+
+ .bg-orange {
+    background-color: #f29e33;
+ }
+
+.bg-pink {
+    background-color: #d863a1;
+ }
+
+ .bg-lime {
+    background-color: #b0c926;
  }
