@@ -32,10 +32,11 @@ header {
     display: inline-block;
     font-weight: 800;
     font-size: 40px;
+    vertical-align: middle;
 }
 
 .logo{
-    vertical-align:text-bottom;
+    vertical-align: middle;
 }
 
 /* /HEADER STYLE */
